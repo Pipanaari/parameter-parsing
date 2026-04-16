@@ -3,10 +3,6 @@
 
 int main(int arg_count, char **argv){
 
-	if(arg_count == 1){
-		printf("input \"add\" or \"status\"");
-		return 1;
-	}
 	int change = 0;
 	for(int i = 1; i < arg_count; i++){
 		if(strcmp(argv[i], "add") == 0){
